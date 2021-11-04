@@ -123,9 +123,10 @@ h5 {
     font-weight: 800;
     color: #415F8F;
     padding-left: 2.0em;
+    width: 80vh;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -165,6 +166,7 @@ h5 {
         font-weight: 800;
         color: #415F8F;
         padding-left: 0.1em;
+        width: 100vh;
     }
 
     .hamburger {
@@ -306,6 +308,131 @@ h5 {
         margin-left: auto;
         margin-right: auto;
     }
+    h1 {
+        font-size: 5em;
+        color: #415F8F;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        color: white;
+        padding-top: 0.8em;
+        font-size: 2em;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .card-text{    
+        padding: 16px;
+        float: left;
+    }
+
+    .tab {
+        padding-left: 0.5em;
+    }
+
+    .spacing {
+        padding-left: 1.8em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .buttons-container {
+        padding-top: 0px;
+    }
+
+    .card-text{    
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+
+    .profile-image {
+        border-radius: 20px;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 7em;
+        color: #415F8F;
+    }
+    
+    h2 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        color: white;
+        padding-top: 0.8em;
+        font-size: 2em;
+    }
+    
+    h4 {
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .card-text{    
+        padding: 16px;
+        float: left;
+    }
+
+    .tab {
+        padding-left: 0.5em;
+    }
+
+    .spacing {
+        padding-left: 1.8em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .buttons-container {
+        padding-top: 0px;
+    }
+
+    .card-text{    
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+
+    .profile-image {
+        border-radius: 20px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     h1 {
         font-size: 5em;
         color: #415F8F;
@@ -507,6 +634,104 @@ h5 {
     }
 }
 
+
+@media screen and (min-width: 601px ) and (max-width: 1024px) {
+    .grid-2 {
+        display: grid;
+        grid-column: 3;
+        grid-gap: 3.5em;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .grid-2 > div {
+        padding: 20px 0;
+    }
+    
+    .item1 {
+        grid-column: 1 / span 3;
+        border-radius: 50%;
+        text-align: left;
+    }
+    
+    .item2 {
+        width: 115%;
+        border-radius: 50%;
+        background-color: #49AF81;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+    }
+    
+    .m-logo {
+        padding-top: 2.5em;
+    }
+    
+    .item3 {
+        width: 100%;
+        border-radius: 50%;
+        background-color: #415F8F;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+        margin-left: 1.9em;
+    }
+    
+    .peachscore-logo {
+        padding-top: 6em;
+    }
+    
+    .item4 {
+        width: 115%;
+        border-radius: 50%;
+        background-color: #088D87;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+    }
+    
+    .samsung-logo {
+        padding-top: 8em;
+    }
+    
+    .item5 {
+        width: 115%;
+        border-radius: 50%;
+        background-color: #94CC70;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+    }
+    
+    .ladder-logo {
+        padding-top: 3em;
+    }
+    
+    .item6 {
+        width: 100%;
+        border-radius: 50%;
+        background-color: #006993;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+        margin-left: 1.9em;
+    }
+    
+    .warmly-logo {
+        padding-top: 5.6em;
+    }
+    
+    .item7 {
+        width: 100%;
+        border-radius: 50%;
+        background-color: #088D87;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+    }
+}
+
 /*******************************/
 /********** PROJECTS ***********/
 /*******************************/
@@ -549,6 +774,19 @@ h5 {
     .row-1 {
         margin-top: -25px;
     }
+}
+
+@media screen and (min-width: 601px ) and (max-width: 1024px) {
+    .column-1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 50px;
+    }
+
+    .row-1 {
+        margin-top: -25px;
+    }
+    
 }
   
   /* Style the counter cards */
@@ -611,13 +849,13 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px ) and (max-width: 1024px) {
     .resume-container {
         display: block;
         margin-left: auto;
