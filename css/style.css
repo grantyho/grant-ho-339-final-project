@@ -821,7 +821,7 @@ h5 {
 }
 
 .button-1:hover {
-    background-color: #415F8F;;
+    background-color: #415F8F;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -892,4 +892,29 @@ a footer {
     footer {
         padding-bottom: 80px;
     }
+}
+
+input {
+    border-color: #415F8F;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #415F8F;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
 }
