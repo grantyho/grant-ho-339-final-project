@@ -16,10 +16,6 @@ html {
     -webkit-overflow-scrolling: touch;
 }
 
-li {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
     color: #415F8F; 
@@ -53,6 +49,18 @@ h5 {
     font-weight: 600;
 }
 
+h6 {
+    color: #415F8F;
+    font-size: 1.8em;
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
+
 .blurb-text {
     color: #415F8F;
     font-size: 2em;
@@ -71,6 +79,7 @@ h5 {
     padding: 1rem 1.5rem;
     padding-top: 5em;
 }
+
 
 .hamburger {
     display: none;
@@ -853,15 +862,54 @@ h5 {
     text-align: center;
 }
 
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
+}
+
+.resume-1 {
+    grid-column: 1/4;
+    grid-row-start: 1;
+
+}
+
+.resume-2 {
+    grid-column: 2 / span 3;
+    grid-row-start: 1;
+    padding-left: 100px;
+    width: 95%;
+}
+
+.resume-2 > h5 {
+    padding-top: 30px;
+}
 
 
-@media screen and (min-width: 601px ) and (max-width: 1024px) {
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 70px;
+}
+
+
+@media screen and (min-width: 601px ) and (max-width: 1023px) {
     .resume-container {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         text-align: center;
+    }
+
+    .resume-1 {
+        grid-column: 1;
+    
+    }
+    
+    .resume-2 {
+        grid-column: 1;
     }
 }
 
@@ -895,7 +943,7 @@ a footer {
 }
 
 input {
-    border-color: #415F8F;
+    border-color:#E1F1FF;
     padding: 8px 16px;
     text-decoration: none;
     display: inline-block;
