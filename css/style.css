@@ -600,14 +600,17 @@ a.skip{
 
 
 @media screen and (max-width: 600px) {
-    .grid-2 {
-        width: 80%;
+    .item1 {
+        grid-column: 1;
+        text-align: center;
     }
 
     .item2 {
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .m-logo {
@@ -618,6 +621,8 @@ a.skip{
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .peachscore-logo {
@@ -628,6 +633,8 @@ a.skip{
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .samsung-logo {
@@ -638,6 +645,8 @@ a.skip{
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .ladder-logo {
@@ -648,6 +657,8 @@ a.skip{
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .warmly-logo {
@@ -658,6 +669,8 @@ a.skip{
         grid-column: 1;
         width: 300px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -792,6 +805,10 @@ a.skip{
 }
 
 @media screen and (max-width: 600px) {
+    .center {
+        text-align: center;
+    }
+
     .column-1 {
       width: 100%;
       display: block;
@@ -929,7 +946,7 @@ a.skip{
     }
     
     .resume-2 {
-        grid-column: 1;
+        grid-column: 1/span 3;
     }
 }
 
