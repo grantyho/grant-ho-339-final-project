@@ -198,6 +198,24 @@ li {
     }
 }
 
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    font-size: 20px;
+  }
+  
+  a.skip:focus{
+    top: 20px;
+    color: #415F8F;
+    text-decoration-style: solid;
+  }
+
 /*******************************/
 /********** ABOUT ME ***********/
 /*******************************/
@@ -894,7 +912,7 @@ li {
 }
 
 
-@media screen and (min-width: 601px ) and (max-width: 1023px) {
+@media screen and (min-width: 767px ) and (max-width: 1023px) {
     .resume-container {
         display: block;
         margin-left: auto;
