@@ -903,7 +903,9 @@ a.skip{
     padding-top: 30px;
 }
 
-
+.bullet {
+    list-style-type: disc;
+}
 
 #sticky {
     position: sticky;
